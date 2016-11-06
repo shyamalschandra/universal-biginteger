@@ -1,30 +1,28 @@
 # Algorithms for BigInteger 
 
-## Sequential Algorithms
-
-### 
+## Sequential Algorithms 
 
 ### Operations [6]
 
-1. abs()
+1. `abs()` - returns the absolute value of the BigInteger
 
-2. add( BigInteger val )
+2. `add( BigInteger val )` - returns the value of the two BigIntegers added together
 
-3. and( BigInteger val )
+3. `and( BigInteger val )` - returns the value of the two BigIntegers anded together
 
-4. andNot( BigInteger val )
+4. `andNot( BigInteger val )` - returns the value of two BigIntegers notanded together
 
-5. bitCount()
+5. `bitCount()` - returns number of bits in two's complement version of the BigInteger that are different from sign bit
 
-6. bitLength()
+6. `bitLength()` - returns number of bit in minimal two's complement version of the BigInteger excluding the sign bit
 
-7. clearBit( int n )
+7. `clearBit( int n )` - a BigInteger with the appropriate bit clear on the BigInteger
 
-8. compareTo( BigInteger val )
+8. compareTo( BigInteger val ) - comparison methods for less than, equal, or greater than
 
-9. divide( BigInteger val )
+9. divide( BigInteger val ) - returns BigInteger that has a value of the designated BigInteger / val
 
-10. divideAndRemainder( BigInteger val )
+10. divideAndRemainder( BigInteger val ) - returns 
 
 11. doubleValue()
 
