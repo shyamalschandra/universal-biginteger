@@ -32,9 +32,9 @@
 
 14. `float floatValue()` - converts the BigInteger into a value of a float
 
-15. `BigInteger gcd( BigInteger val )` - 
+15. `BigInteger gcd( BigInteger val )` - returns the greatest common divisor of the two BigInteger values
 
-16. `int getLowestSetBit()`
+16. `int getLowestSetBit()` - 
 
 17. `int hashCode()`
 
