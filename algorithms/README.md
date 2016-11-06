@@ -6,65 +6,93 @@
 
 ### Operations [6]
 
-#### abs()
+1. abs()
 
-#### add( BigInteger val )
+2. add( BigInteger val )
 
-#### and( BigInteger val )
+3. and( BigInteger val )
 
-#### andNot( BigInteger val )
+4. andNot( BigInteger val )
 
-#### bitCount()
+5. bitCount()
 
-#### bitLength()
+6. bitLength()
 
-#### clearBit( int n )
+7. clearBit( int n )
 
-#### compareTo( BigInteger val )
+8. compareTo( BigInteger val )
 
-#### divide( BigInteger val )
+9. divide( BigInteger val )
 
-#### divideAndRemainder( BigInteger val )
+10. divideAndRemainder( BigInteger val )
 
-#### doubleValue()
+11. doubleValue()
 
-#### equals( Object x )
+12. equals( Object x )
 
-#### flipBit( int n )
+13. flipBit( int n )
 
-#### floatValue()
+14. floatValue()
 
-#### gcd( BigInteger val )
+15. gcd( BigInteger val )
 
-#### getLowestSetBit()
+16. getLowestSetBit()
 
-#### hashCode()
+17. hashCode()
 
-#### intValue()
+18. intValue()
 
-#### isProbablePrime( int certainty )
+19. isProbablePrime( int certainty )
 
-#### longValue()
+20. longValue()
 
-#### max( BigInteger val )
+21. max( BigInteger val )
 
-#### min( BigInteger val )
+22. min( BigInteger val )
 
-#### mod( BigInteger val )
+23. mod( BigInteger val )
 
-#### modInverse( BigInteger val )
+24. modInverse( BigInteger val )
 
-#### modPow( BigInteger exponent, BigInteger m )
+25. modPow( BigInteger exponent, BigInteger m )
 
-#### multiply( BigInteger val )
+26. multiply( BigInteger val )
 
-#### negate()
+27. negate()
 
-#### nextProbablePrime()
+28. nextProbablePrime()
 
+29. not()
 
+30. or( BigInteger val )
 
+31. pow( int exponent )
 
+32. probablePrime( int bitLength, Rnadom rnd )
+
+33. remainder( BigInteger val)
+
+34. setBit( int n )
+
+35. shiftLeft( int n )
+
+36. shiftRight( int n )
+
+37. signum()
+
+38. subtract( BigInteger val )
+
+39. testBit( int n )
+
+40. toByteArray()
+
+41. toString()
+
+42. toString( int radix )
+
+43. valueOf( long val )
+
+44. xor( BigInteger val )
 
 ## Parallel Algorithms
 
