@@ -1,32 +1,32 @@
-# Algorithms for BigInteger 
+# Algorithms for BigInteger
 
-## Sequential Algorithms 
+## Sequential Algorithms
 
 ### Operations [6]
 
-1. `abs()` - returns the absolute value of the BigInteger
+1. `BigInteger abs()` - returns the absolute value of the BigInteger
 
-2. `add( BigInteger val )` - returns the value of the two BigIntegers added together
+2. `BigInteger add( BigInteger val )` - returns the value of the two BigIntegers added together
 
-3. `and( BigInteger val )` - returns the value of the two BigIntegers anded together
+3. `BigInteger and( BigInteger val )` - returns the value of the two BigIntegers anded together
 
-4. `andNot( BigInteger val )` - returns the value of two BigIntegers notanded together
+4. `BigInteger andNot( BigInteger val )` - returns the value of two BigIntegers notanded together
 
-5. `bitCount()` - returns number of bits in two's complement version of the BigInteger that are different from sign bit
+5. `int bitCount()` - returns number of bits in two's complement version of the BigInteger that are different from sign bit
 
-6. `bitLength()` - returns number of bit in minimal two's complement version of the BigInteger excluding the sign bit
+6. `int bitLength()` - returns number of bit in minimal two's complement version of the BigInteger excluding the sign bit
 
-7. `clearBit( int n )` - a BigInteger with the appropriate bit clear on the BigInteger
+7. `BigInteger clearBit( int n )` - a BigInteger with the appropriate bit clear on the BigInteger
 
-8. compareTo( BigInteger val ) - comparison methods for less than, equal, or greater than
+8. `int compareTo( BigInteger val )` - comparison methods for less than, equal, or greater than
 
-9. divide( BigInteger val ) - returns BigInteger that has a value of the designated BigInteger / val
+9. `BigInteger divide( BigInteger val )` - returns BigInteger that has a value of the designated BigInteger / val
 
-10. divideAndRemainder( BigInteger val ) - returns 
+10. `BigInteger divideAndRemainder( BigInteger val )` - returns
 
-11. doubleValue()
+11. `double doubleValue()`
 
-12. equals( Object x )
+12. `boolean equals( Object x )`
 
 13. flipBit( int n )
 
@@ -107,5 +107,3 @@
 5. TTMath: Bignum C++ Library. http://www.ttmath.org/
 
 6. BigInteger, Oracle. Retrieved November 6, 2016. http://docs.oracle.com/javase/7/docs/api/java/math/BigInteger.html
-
-
