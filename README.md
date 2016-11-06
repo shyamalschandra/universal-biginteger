@@ -1,7 +1,9 @@
-# universal-biginteger
+# universal-biginteger (in progress)
 
 ## Universal BigInteger Class: Comparison & Analysis
 Created by: Shyamal Suhana Chandra
+
+The universal big integer class library is created to 
 
 ## Introduction
 
