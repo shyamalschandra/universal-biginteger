@@ -22,17 +22,17 @@
 
 9. `BigInteger divide( BigInteger val )` - returns BigInteger that has a value of the designated BigInteger / val
 
-10. `BigInteger divideAndRemainder( BigInteger val )` - returns
+10. `BigInteger divideAndRemainder( BigInteger val )` - returns two BigInteger with the value of one BigInteger divided by val along with the remainder of the operation
 
-11. `double doubleValue()`
+11. `double doubleValue()` - converts the BigInteger into a value of double
 
-12. `boolean equals( Object x )`
+12. `boolean equals( Object x )` - compares two BigInteger for equality (==)
 
-13. `BigInteger flipBit( int n )`
+13. `BigInteger flipBit( int n )` - returns the BigInteger where the value is equal to the appropriate bit flipped of this BigInteger
 
-14. `float floatValue()`
+14. `float floatValue()` - converts the BigInteger into a value of a float
 
-15. `BigInteger gcd( BigInteger val )`
+15. `BigInteger gcd( BigInteger val )` - 
 
 16. `int getLowestSetBit()`
 
@@ -58,39 +58,39 @@
 
 27. `BigInteger negate()`
 
-28. nextProbablePrime()
+28. `BigInteger nextProbablePrime()`
 
-29. not()
+29. `BigInteger not()`
 
-30. or( BigInteger val )
+30. `BigInteger or( BigInteger val )`
 
-31. pow( int exponent )
+31. `BigInteger pow( int exponent )`
 
-32. probablePrime( int bitLength, Rnadom rnd )
+32. `static BigInteger probablePrime( int bitLength, Random rnd )`
 
-33. remainder( BigInteger val)
+33. `BigInteger emainder( BigInteger val)`
 
-34. setBit( int n )
+34. `setBit( int n )`
 
-35. shiftLeft( int n )
+35. `shiftLeft( int n )`
 
-36. shiftRight( int n )
+36. `shiftRight( int n )`
 
-37. signum()
+37. `int signum()`
 
-38. subtract( BigInteger val )
+38. `BigInteger subtract( BigInteger val )`
 
-39. testBit( int n )
+39. `boolean testBit( int n )`
 
-40. toByteArray()
+40. `byte[] toByteArray()`
 
-41. toString()
+41. `String toString()`
 
-42. toString( int radix )
+42. `String toString( int radix )`
 
-43. valueOf( long val )
+43. `static BigInteger valueOf( long val )`
 
-44. xor( BigInteger val )
+44. `BigInteger xor( BigInteger val )`
 
 ## Parallel Algorithms
 
