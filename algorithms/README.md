@@ -28,35 +28,35 @@
 
 12. `boolean equals( Object x )`
 
-13. flipBit( int n )
+13. `BigInteger flipBit( int n )`
 
-14. floatValue()
+14. `float floatValue()`
 
-15. gcd( BigInteger val )
+15. `BigInteger gcd( BigInteger val )`
 
-16. getLowestSetBit()
+16. `int getLowestSetBit()`
 
-17. hashCode()
+17. `int hashCode()`
 
-18. intValue()
+18. `int intValue()`
 
-19. isProbablePrime( int certainty )
+19. `boolean isProbablePrime( int certainty )`
 
-20. longValue()
+20. `long longValue()`
 
-21. max( BigInteger val )
+21. `BigInteger max( BigInteger val )`
 
-22. min( BigInteger val )
+22. `BigInteger min( BigInteger val )`
 
-23. mod( BigInteger val )
+23. `BigInteger mod( BigInteger val )`
 
-24. modInverse( BigInteger val )
+24. `BigInteger modInverse( BigInteger val )`
 
-25. modPow( BigInteger exponent, BigInteger m )
+25. `BigInteger modPow( BigInteger exponent, BigInteger m )`
 
-26. multiply( BigInteger val )
+26. `BigInteger multiply( BigInteger val )`
 
-27. negate()
+27. `BigInteger negate()`
 
 28. nextProbablePrime()
 
